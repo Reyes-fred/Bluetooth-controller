@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.yey.microsprocesadores.MainActivity">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adelante"
+        android:id="@+id/adelante"
+        android:layout_alignTop="@+id/atras"
+        android:layout_alignEnd="@+id/derecha" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atras"
+        android:id="@+id/atras"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Izquierda"
+        android:id="@+id/izquierda"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="derecha"
+        android:id="@+id/derecha"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Detener"
+    android:id="@+id/detener"
+        android:layout_alignTop="@+id/media"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V lenta"
+        android:id="@+id/lenta"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V Media"
+        android:id="@+id/media"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/lenta" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="V alta"
+        android:id="@+id/alta"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/media" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fabiola Guevara Soriano\nDaniel Reyes Sanchez\nAna Olguin Dominguez"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/alta"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+
+</RelativeLayout>
