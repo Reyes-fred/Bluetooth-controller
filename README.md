@@ -1,3 +1,3 @@
 # Bluetooth-controller
 
-App that conect with a bluetooth module, to make a car controller. 
+App with the functionality to conect with bluetooth module for the propose to be a car controller
